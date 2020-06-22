@@ -1,0 +1,17 @@
+.snake-food{
+    background-color: darkolivegreen;
+    animation: rotation 2s infinite; 
+    border-radius: 2px;
+    position: absolute;
+    width:12px;
+    height: 12px;
+}
+
+@keyframes rotation {
+    from {
+            -webkit-transform: rotate(0deg);
+    }
+    to {
+            -webkit-transform: rotate(359deg);
+    }
+}

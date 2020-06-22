@@ -1,0 +1,34 @@
+
+
+.game-board-main-wrapper{
+    width: 400px;
+    height: 400px;
+    margin: 0 auto;
+    border: 10px solid blueviolet;
+    position: relative;
+}
+
+.game-board-main-wrapper  .small-pixel-block{
+    width: 12px;
+    height: 12px;
+    border-radius: 4px;
+    background: darkblue;
+    position: absolute;
+}
+.game-board-main-wrapper .start-game{
+
+    position: absolute;
+    top: 50%;
+    left:50%;
+    transform: translate(-50%,-50%);
+    border: 2px solid black;
+    border-radius: 4px;
+    outline: none;
+    background: #888;;
+    cursor: pointer;
+    padding: 4px;
+}
+.game-board-main-wrapper .start-game:hover{
+
+    background: #fff;
+}
