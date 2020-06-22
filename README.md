@@ -2,9 +2,8 @@
 
 # Submission
 
-Game URL: _____
+Game URL: https://snake-game-react-salil.netlify.app/
 
-Mockup URL: _____
 
 ## How to do the question
 - Make a new branch `snake-game`.
